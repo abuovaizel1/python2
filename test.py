@@ -1,7 +1,9 @@
-import requests
-from bs4 import BeautifulSoup as bs
+from src import *
 
-res = requests.get('https://coinmarketcap.com/currencies/cardano/')
-soup = bs(res.text, "html.parser")
-print(soup.prettify())
-
+some_data = gettingData()
+check = input("Choose:")
+if check:
+    curName = input(" Currency name:")
+    scrapper = getRequest(curName)
+    for i in scrapper:
+        print(i)
