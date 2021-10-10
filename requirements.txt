@@ -1,0 +1,4 @@
+# Requests
+Requests allow you to send HTTP / 1.1 requests very easily and instantly. You don't need to manually add query strings to your URLs or encode POST data. Keeping alive and pooling HTTP connections are 100% automatic thanks to urllib3.
+# BeautifulSoup
+Beautiful Soup is a Python library for extracting data from HTML and XML files. It works with your favorite parser to provide idiomatic ways to navigate, search, and modify the parse tree. This usually saves programmers hours or days of work.
